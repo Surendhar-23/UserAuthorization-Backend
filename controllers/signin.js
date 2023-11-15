@@ -1,6 +1,6 @@
 const User = require("../models/User");
 const verifyUser = require("../models/verifyUser");
-const { sendMail } = require("./sendMail");
+const { sendMail } = require("./SendMail");
 const bcrypt = require("bcrypt");
 const mongoose = require("mongoose");
 var jwt = require("jsonwebtoken");
